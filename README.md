@@ -34,5 +34,5 @@ See the [LICENSE](LICENSE) file for the complete license terms.
 ## Contact
 
 **Alireza Adli**  
-Email: [Alireza.adli4@gmail.com](mailto:Alireza.adli4@gmail.com)  
+Email: [alireza.adli4@gmail.com](mailto:alireza.adli4@gmail.com)  
 Website: [demianadli.com](https://demianadli.com)
