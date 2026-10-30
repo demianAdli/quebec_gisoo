@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quebec_gisoo"
+version = "0.1.0"
+description = "Geospatial data-cleaning workflows for Québec building datasets."
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+authors = [
+    { name = "Alireza Adli" }
+]
+dependencies = [
+    "citygisoo>=0.2.1",
+    "sabu-chassis>=0.1.1",
+    "flask==3.1.1",
+    "flask-smorest==0.46.1",
+    "marshmallow",
+    "geopandas",
+    "shapely>=2",
+    "pyproj",
+    "requests",
+    "pandas"
+]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["quebec_gisoo*"]
