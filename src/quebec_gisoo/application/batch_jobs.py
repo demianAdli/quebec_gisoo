@@ -19,9 +19,9 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 
 
-JOB_STORE_PATH_ENV = 'JUG_GIS_CITIES_JOB_STORE_PATH'
+JOB_STORE_PATH_ENV = 'QUEBEC_GISOO_JOB_STORE_PATH'
 DEFAULT_JOB_STORE_PATH = os.path.abspath(
-    os.path.join(tempfile.gettempdir(), 'jug_gis_cities_jobs.sqlite3'))
+    os.path.join(tempfile.gettempdir(), 'quebec_gisoo_jobs.sqlite3'))
 
 QUEUED = 'queued'
 RUNNING = 'running'
